@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    position:relative;
+}
+.view{
+    display:flex;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    background-color:  hsl(178, 100%, 50%, .5);
+    width: 299px;
+    height:296px;
+    border-radius: 10px;
+    display:none;
+    
+}
+.view img{
+    width:40px;
+    height:40px;
+    margin:auto;
+}
+.change{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+}
+
+.container{
+    display:flex;
+    background-color:hsl(220, 57%, 11%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+}
+.cont{
+    width:300px;
+    height:fit-content;
+    overflow: hidden;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 12px;
+    padding:21px;   
+    box-shadow:1px 39px 0px 15px hsl(217, 55%, 10%);
+    margin: 40px;
+    margin-top:25px;
+    margin-bottom:98px;
+    
+}
+.cont p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215,25%,57%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.equilibrium img{
+    width:100%;
+    border-radius:10px;
+}
+.change:hover .view{
+    display:flex;
+    cursor: pointer;
+    margin:auto;
+}
+.cont h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin: 18px 0px;
+    font-size: 21px;
+    font-family: 'Outfit', sans-serif;
+}
+.cont h2:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.desc{
+    display:flex;
+    margin: 30px 0px;
+    align-items: center;
+}
+.days{
+    display:flex;
+    margin-left:auto;
+    color:hsl(215, 51%, 70%);
+}
+.days img{
+    width:21px;
+    margin-right:10px;
+}
+
+.cont p{
+    color:hsl(215, 51%, 70%);
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    display:flex;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+
+}
+.eth img{
+    width:14px;
+    margin-right:10px;
+}
+
+hr{
+    color: hsl(76, 100%, 50%);
+}
+.creator{
+    display:flex;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.creator img{
+    border:1px;
+    width:35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.creator p{
+    color:hsl(215, 51%, 70%);
+}
+.creator span{
+    color:hsl(0, 0%, 100%);
+}
+.creator span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
